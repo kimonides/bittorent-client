@@ -17,7 +17,7 @@ func main() {
 		panic(err)
 	}
 
-	t, err := bto.toTorrentFile()
+	t, err := bto.ToTorrentFile()
 	if err != nil {
 		panic(err)
 	}

@@ -56,7 +56,7 @@ func (i *bencodeInfo) splitPieceHashes() ([][20]byte, error) {
 	return hashes, nil
 }
 
-func (bto *bencodeTorrent) toTorrentFile() (TorrentFile, error) {
+func (bto *bencodeTorrent) ToTorrentFile() (TorrentFile, error) {
 	infoHash, err := bto.Info.hash()
 	if err != nil {
 		return TorrentFile{}, err
