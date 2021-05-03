@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
+
+	"github.com/kimonides/bittorent-client/torrentfile"
 )
 
 func main() {

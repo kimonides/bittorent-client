@@ -7,6 +7,7 @@ import (
 	"time"
 
 	"github.com/jackpal/bencode-go"
+	"github.com/kimonides/bittorent-client/peers"
 )
 
 type bencodeTrackerResp struct {
